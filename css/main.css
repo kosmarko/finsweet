@@ -18,7 +18,6 @@ body {
   text-align: left;
 }
 
-/* kada imam bootsrap onda u njemu menjam ukoliko width odudara od njegovih containera */
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -28,7 +27,6 @@ a {
   text-decoration: none;
 }
 
-/* da mogu da podesim raspored elemenata u navbaru */
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -95,7 +93,6 @@ a {
   padding: 0;
 }
 
-/* morao sam 626 jer mi za 616 nije bila dovoljna duzina za heading-1 block-1 */
 .width-626 {
   max-width: 626px;
 }
@@ -152,7 +149,6 @@ a {
   max-width: 640px;
 }
 
-/* 721 mi nije zavrsavalo posao pa sam morao na 733 lorem3 taemwork */
 .width-733 {
   max-width: 733px;
 }
@@ -323,7 +319,6 @@ a {
   background-color: #f58a07;
   border-radius: 27px;
   font-weight: 600;
-  /* morao sam sa 199 na 203 jer mi je prelazilo u drugi red */
   width: 203px;
   height: 54px;
   padding: 18px 32px 19px;
@@ -420,7 +415,6 @@ a {
   color: #f58a07;
 }
 
-/* after odradjen sa transition */
 .link::after {
   content: "";
   background-image: url(../img/arrow_right.svg);
@@ -479,7 +473,6 @@ a {
   padding: 0;
 }
 
-/* bitno da se odradi relative na parent i absolute na child i da se stavi height 100% */
 .bg_block-4::before {
   content: "";
   width: 153px;
@@ -997,7 +990,6 @@ a {
   margin-top: -8px;
 }
 
-/* kada povecavam sliku onda koristim object fit kako ne bi bila cropovana */
 .vision__right img {
   min-height: 493px;
   object-fit: cover;
@@ -1301,7 +1293,6 @@ footer::after {
   margin-bottom: 0;
 }
 
-/* zbog preklapanja slike sa paragrafom moralo da se doda */
 .footer-z_index {
   z-index: 1;
   position: relative;
@@ -1316,7 +1307,6 @@ footer::after {
 @media screen and (max-width: 1640px) {
   .block-1 {
     background-position: right bottom;
-    /* background-size: 55%; */
   }
 }
 
